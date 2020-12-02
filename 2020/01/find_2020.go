@@ -67,5 +67,5 @@ func main() {
 	numFile := "input_01.txt"
 	numList, err := ReadFile(numFile)
 	if err != nil {panic(err)}
-	fmt.Println(FindThree2020(numList))
+	fmt.Println(FindTwo2020(numList))
 }
